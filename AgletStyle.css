@@ -1,0 +1,371 @@
+/*Logo*/
+.logo-display
+{
+     color: white;
+     font-family: inherit;
+     font-size: 45px;
+     margin-top: 20px;
+    
+    
+}/*Body Color*/
+body
+{
+    
+    background-color: black;
+}
+ul li
+{
+  color: white;  
+}
+
+/*Menu Styling*/
+.nav
+{
+      
+    float: left;
+    list-style: none;
+    padding: 5px;
+    float: right;
+    margin-right: 100px;
+     margin-top: -95px;
+     font-size: 32px;
+}
+.nav
+{
+   
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+}
+.menu
+{
+    margin: 0 30px 0 0;
+}
+.menu a 
+{
+    clear: right;
+    text-decoration: none;
+    color:white;
+    margin: 0 10px;
+    line-height: 70px;
+}
+.nav a
+{
+    list-style: none;
+    color: white;
+    font-family: inherit;
+     text-decoration: none;
+     margin-top: -24%;
+}
+.nav a:hover
+{
+    color: white;
+    border-bottom: 1px solid white ;
+ 
+     font-family: inherit;
+    
+}
+#menulist
+{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    color: white;
+    float: right;
+    width: 26px;
+}
+#toggle
+{
+    display: none;
+}
+@media only screen and (max-width:999px)
+{
+    #menulist
+    {
+        display: block;
+        cursor: pointer;
+        
+    }
+    .menu
+    {
+        text-align: center;
+        width:100%;
+        display: none;
+    }
+    .menu a
+    {
+        display: block;
+        border-bottom: 1px solid #f1f1f1;
+        margin: 0;
+    }
+    #toggle:checked + .menu
+    {
+        display: block;
+    }
+    ::-webkit-scrollbar
+    {
+        width: 0px;
+         background-color: transparent;
+    }
+    
+}
+
+body {
+   
+ 
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    background: #000;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+::selection {
+    background: #222;
+    color: #fff;
+}
+
+.hidden
+{
+    visibility: hidden;
+}
+
+/*Conact Page Styling*/
+h1{
+    color:white;
+    text-align: center;
+    font-size:  1000%;
+     
+}
+#backgroundvideo
+{
+    
+}
+.social-distancing li
+{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color:white;
+}
+/*Customize Contact page*/
+.image-display
+{
+    margin-left: 5%;
+}
+.Conact-infrom
+{
+    color: white;
+    margin-left: 48%;
+    font-size: 170%;
+    margin-top:-1%;
+    position:absolute;
+}
+.more-inform p
+{
+    color: #333333;
+}
+.contact-more
+{
+    margin-top: 5%
+    
+}
+.contactnow
+{
+  
+    width: auto;
+    height: auto;
+}
+p
+{
+    font-size:250px;
+    color: white;
+    margin-top: -40%;
+    margin-left: 35%;
+    color: black;
+}
+.more-inform
+{
+  color: white;
+    height: 50%;
+}
+.basr-social-share social li
+{
+    text-decoration: none;
+    display: inline-block;
+}
+.basr-social-share social span
+{
+    display: inline-block;
+}
+
+/*Add some content at the bottom of the video/page*/
+.ContentVideos
+{
+    position: fixed;
+    bottom: 0;
+    background: rgba(0 , 0,0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+}
+
+.contentVideoShow h1
+{
+    text-align: center;
+    background: transparent;
+    position: relative;
+        margin-top: -30%;
+}
+#box-display
+{
+ float: right;
+ margin-top: -20%;
+
+}
+.about-us
+{
+    color: black;
+    font-size: 35px;
+
+}
+
+/*Sliders & Videos*/
+*
+{
+    margin: 0;
+    padding:0;
+}
+.horzontal_slider
+{
+    display: block;
+    width: 100%;
+    overflow-x: scroll;
+    padding:20px;
+    box-sizing: border-box;
+    z-index: 1;
+    
+}
+.horzontal_slider:hover
+{
+ 
+    opacity: 2;
+}
+.slider_container
+{
+    display: block;
+    white-space: nowrap;
+}
+.item
+{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+.item video
+{
+    width: 730px;
+    height: 650px;
+}
+.horzontal_slider::-webkit-scrollbar
+{
+   min-width: 675px;
+ 
+   background-color: #f1f1f1;
+    margin-left: 35%;
+    margin-top: 10%;
+    height: 4px;
+    cursor: pointer;
+    border-radius: 50px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+   
+}
+
+/* for ms*/
+.horzontal_slider
+{
+    -ms-overflow-style: none;
+    
+}
+.content
+{
+    color: white;
+}
+::-webkit-scrollbar
+{
+    width: 0px;
+    background: transparent;
+}
+.scroller_slider
+{
+    display: none;
+    background-color: #cccccc;
+    margin-left: 35%;
+    margin-top: 3%;
+    width: 350px;
+    height: 4px;
+    cursor: pointer;
+    border-radius: 50px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+    
+}
+/*Mobile Menu & Display Styling*/
+@media (max-width: 999px)
+{
+    .slider_container
+    {
+        position: absolute;
+        display:flex;
+        flex-direction: column;
+        height: auto;
+        transform: none !important;
+        text-align: center;
+        text-justify: auto;
+        text-decoration: none;  
+    z-index: 1;
+  }
+  .content .p
+  {
+      position: relative;
+       text-align: right;
+  }
+  .h2
+  {
+       position: relative;
+     margin-top: -35%; 
+     font-family: inherit;
+       text-align: right;
+     
+  }
+  .h3
+  {
+      font-family: monospace;
+      position: relative;
+      text-align: right;
+     margin-top: -35%; 
+
+  }
+    
+}
+video
+{
+    cursor: pointer;
+    display: block;
+    
+}
+h3
+{
+    color:grey;
+}
+.h2 .h3
+{
+    margin-top: 20%;
+}
